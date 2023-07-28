@@ -1,0 +1,63 @@
+table {
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    background-color: rgb(76, 73, 73);
+}
+
+input[type="button"] {
+    width: 100%;
+    padding: 20px 40px;
+    background-color: #acbde2;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+input[type="button"]:active {
+    background-color: #96b1eb;
+    color: black;
+    box-shadow: rgba(98, 98, 180, 0.25) 0px 30px 60px -12px inset, rgba(8, 8, 8, 0.934) 0px 18px 36px -18px inset;
+  }
+
+input[type="text"] {
+    padding: 20px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: pink;
+    color: black;
+    height: 60px;
+    padding: 1em;
+    font-size: 30px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: pink;
+    color: black;
+    height: 30px;
+    padding: 1em;
+    font-size: 20px;
+}
+
+div {
+    padding: 5em;
+    background-color: #7da2a9;
+}
